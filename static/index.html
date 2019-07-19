@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>채팅</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+  </head>
+  <body>
+  <table>
+      <td>
+    <div id="main">
+      <div id="chat">
+        <!-- 채팅 메시지 영역 -->
+      </div>
+      <div>
+        <input type="text" id="test" placeholder="메시지를 입력해주세요.." value=''>
+        <button onclick="send()">전송</button>
+      </div>
+     
+    </td>
+    <td>  
+
+    </div>
+    <div class="container">
+
+      <h1>Balance check</h1>
+
+      <label for="name" class="col-lg-2 control-label">your address</label>      
+      <input type="text" id="sendAddress" placeholder="계좌를 입력해주세요..">
+      <button onclick="sendAddress()">잔액조회</button>
+
+    </div>
+    </td>
+</table>
+
+  </body>
+</html>
+
+
