@@ -18,7 +18,7 @@
   "homepage": "https://github.com/leegeunhyeok/node-chat#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "socket.io": "^2.1.1",
+    "socket.io": "^2.5.0",
     "web3": "^1.0.0-beta.34"
   }
 }
